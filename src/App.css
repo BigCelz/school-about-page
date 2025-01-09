@@ -1,0 +1,839 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+/* navhead css start */
+.nav-image {
+  width: 99px;
+  height: 62px;
+  top: 9px;
+  left: 30px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.nav-link {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #001119;
+}
+
+.nav-link:hover,
+.active {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #015885 !important;
+}
+
+.login-btn {
+  width: Fixed (83px) px;
+  height: Hug (39px) px;
+  padding: 10px 0px;
+  gap: 10px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: #fff;
+  outline: none;
+  border: none !important;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+}
+
+.signup-btn {
+  width: Fixed (83px) px;
+  height: Hug (39px) px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: #015885;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+/* navhead css end */
+
+/* hero css start */
+.hero{
+  height: 100vh;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./Assets/abouthero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-h1{
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  max-width: 1079px;
+}
+
+.about-p{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  max-width: 1079px;
+  margin-top: 40px;
+}
+/* hero css end */
+
+/* vision css start */
+.vision{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: hsl(185, 12%, 96%) !important;
+}
+
+.vision-head{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.vision-number{
+  width: Fixed (50px)px;
+  height: Fixed (50px)px;
+  padding: 14px ;
+  gap: 10px;
+  border-radius: 50px ;
+  border: 1px solid #015885;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #015885;
+}
+
+.vision-p-head{
+  color: #000000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 10px;
+}
+
+.vision-p-ii{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  max-width: 432px;
+}
+
+.vision-small-col-ii{
+  margin-left: 30px;
+}
+
+.vision-span-p-content{
+  margin-bottom: 10px;
+}
+
+.vision-imgg-top-bottom{
+  width: 350px;
+  height: 304px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;  
+}
+
+.vision-imgg-bigg{
+  width: 350px;
+  height: 628px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+}
+
+.vision-second-coll-ii{
+  margin-top: 60px;
+}
+/* vision css end */
+
+/* mission css start */
+.mission{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.mission-head{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.mission-card{
+  width: Fixed (520px)px;
+  height: Hug (497px)px;
+  padding: 29px 30px 29px 30px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;  
+  background-color: #015885;
+  border: none;
+  outline: none;
+}
+
+.mission-card-body-p-i{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-decoration: underline !important;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mission-card-body-p-ii{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  max-width: 460px;
+}
+
+.mission-card-ii{
+  width: Fixed (520px)px;
+  height: Hug (497px)px;
+  padding: 29px 30px 29px 30px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;  
+  background-color: #ffbb00;
+  border: none;
+  outline: none;
+}
+
+.mission-card-body-p-head-ii{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.mission-card-body-p-iii{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #001119;
+}
+
+/* mission css end */
+
+
+/* map css start */
+.map{
+  background-color: hsl(185, 12%, 96%) !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.map-card{
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.map-list-group{
+  list-style: none;
+}
+
+.map-second-col{
+  margin-top: 65px;
+}
+
+.map-list-head{
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #001119;
+}
+
+.map-list-item{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #001119;
+}
+
+.map-list-item-date{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #015885;
+}
+
+.map-img{
+  width: 392px;
+  height: 394px;
+  gap: 0px;
+  opacity: 0px;  
+}
+/* map css end */
+
+/* footer css start */
+.footer {
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-logo {
+  width: 321px;
+  height: 201px;
+  object-fit: contain;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  margin-bottom: 50px;
+}
+
+.footer-p {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #001119;
+  max-width: 353px;
+  margin-top: 40px;
+}
+
+.footer-nav-link {
+  color: #001119 !important;
+  font-family: Nunito !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 19.2px !important;
+  text-align: left !important;
+  text-underline-position: from-font !important;
+  text-decoration-skip-ink: none !important;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-b-p {
+  font-family: Nunito;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  max-width: 353px;
+  color: #001119;
+}
+
+.footer-b-icons {
+  width: 9.24px !important;
+  height: 17.45px !important;
+  color: #0045ff !important;
+  cursor: pointer;
+}
+/* footer css end */
+
+
+
+/* For mobile devices (up to 768px wide) */
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  /* navbar responsive start */
+  .nav-image {
+    width: 80px;
+    height: 42px;
+    top: 9px;
+    left: 30px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .nav-link {
+    font-family: Nunito;
+    font-size: 11px;
+    font-weight: 600 !important;
+    line-height: 13.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #001119;
+  }
+
+  .login-btn {
+    width: Fixed (73px) px;
+    height: Hug (29px) px;
+    padding: 8px 0px;
+    gap: 10px;
+    border-radius: 3px;
+    opacity: 0px;
+    background-color: #fff;
+    outline: none;
+    border: none !important;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 600 !important;
+    line-height: 15.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+  }
+
+  .signup-btn {
+    width: Fixed (73px) px;
+    height: Hug (29px) px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 3px;
+    opacity: 0px;
+    background-color: #015885;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  /* navbar responsive end */
+   
+  /* hero responsive start */
+  .hero{
+    height: 800px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./Assets/abouthero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .about-h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    max-width: 959px;
+  }
+  
+  .about-p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    max-width: 959px;
+    margin-top: 40px;
+  }
+  /* hero responsive end */
+
+  /* vision responsive start */
+  .vision{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: hsl(185, 12%, 96%) !important;
+  }
+  
+  .vision-head{
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  
+  .vision-number{
+    width: Fixed (46px)px;
+    height: Fixed (46px)px;
+    padding: 14px ;
+    gap: 10px;
+    border-radius: 50px ;
+    border: 1px solid #015885;
+    opacity: 0px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #015885;
+  }
+  
+  .vision-p-head{
+    color: #000000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 10px;
+  }
+
+  
+.vision-p-ii{
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  max-width: 432px;
+}
+
+/* .vision-small-col-ii{
+  margin-left: 30px;
+} */
+
+.vision-span-p-content{
+  margin-bottom: 5px;
+}
+
+.vision-imgg-top-bottom{
+  width: 100%;
+  height: 304px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;  
+}
+
+.vision-imgg-bigg{
+  width: 100%;
+  height: 628px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  margin-top: 20px;
+}
+
+.vision-second-coll-ii{
+  margin-top: 20px;
+}
+  /* vision responsive end */
+
+  /* mission responsive start */
+  .mission{
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  
+  .mission-head{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+
+  
+.mission-card{
+  width: 100%;
+}
+
+.mission-coll-i{
+  margin-bottom: 20px;
+}
+
+.mission-card-body-p-i{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-decoration: underline !important;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mission-card-body-p-ii{
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  max-width: 460px;
+}
+
+.mission-card-ii{
+  width: 100%
+}
+
+
+.mission-card-body-p-head-ii{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.mission-card-body-p-iii{
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #001119;
+}
+
+  /* mission responsive end */
+
+  /* map responsive start */
+  .map-img{
+   width: 100%;  
+  }
+
+  .map-list-head{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #001119;
+  }
+  
+  .map-list-item{
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #001119;
+  }
+  
+  .map-list-item-date{
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #015885;
+  }
+  /* map responsive end */
+
+   /* footer responsive start */
+   .footer {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-logo {
+    width: 190px;
+    height: 170px;
+    object-fit: contain;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between !important;
+    margin-bottom: 50px;
+  }
+  
+  .footer-p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #001119;
+    /* max-width: 353px; */
+    margin-top: 40px;
+  }
+  
+  .footer-nav-link {
+    color: #001119 !important;
+    font-family: Nunito !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: 19.2px !important;
+    text-align: left !important;
+    text-underline-position: from-font !important;
+    text-decoration-skip-ink: none !important;
+
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-b-p {
+    font-family: Nunito;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 353px;
+    color: #001119;
+  }
+  
+  .footer-b-icons {
+    width: 8.24px !important;
+    height: 17.45px !important;
+    color: #0045ff !important;
+    cursor: pointer;
+  }
+
+  /* footer responsive end */
+}
